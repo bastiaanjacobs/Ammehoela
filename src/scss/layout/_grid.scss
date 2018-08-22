@@ -1,0 +1,13 @@
+.row {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-flow: column wrap;
+    .container {
+        flex-flow: row wrap;
+        max-width: 1110px;
+        &-fluid {
+            max-width: none;
+        }
+    }
+}
