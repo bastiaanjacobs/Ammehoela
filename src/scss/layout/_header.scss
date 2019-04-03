@@ -1,7 +1,18 @@
 header {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
     display: flex;
-    padding: $space;
-    border-bottom: 1px solid $grey;
+    padding: $space*4 $space*2 $space $space*2;
+    border-bottom: 1px solid rgba(255,255,255,.5);
+    .logo {
+        margin: 0;
+        padding: 0;
+        img {
+            width: 100px;
+        }
+    }
     nav {
         ul {
             display: flex;
@@ -13,5 +24,10 @@ header {
                 margin: 0;
             }
         }
+    }
+    .shopping__cart {
+        position: absolute;
+        top: $space*4;
+        right: $space*2;
     }
 }

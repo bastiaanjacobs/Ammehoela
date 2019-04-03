@@ -34,6 +34,7 @@ gulp.task('serve', ['fonts','images','js','scss','components'], function() {
     gulp.watch("src/scss/**/*.scss", ['scss']);
     gulp.watch("src/js/**/*.js", ['js']);
     gulp.watch("src/**/*.html", ['components']);
+    gulp.watch("src/img/*.*", ['images']);
 	gulp.watch("src/**/*").on('change', browserSync.reload);
 });
 
