@@ -5,8 +5,7 @@ main {
         display: flex;
         flex-direction: row;
         img {
-            width: auto;
-            height: auto;
+            max-width: 100%;
         }
     }
     .content {

@@ -2,13 +2,27 @@
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
-    flex-flow: column wrap;
+    flex-flow: row wrap;
+    margin: 0;
+    padding: $space;
     .container {
-        flex-flow: row wrap;
-        max-width: 1110px;
+        display: block;
+        display: flex;
+        flex-flow: column;
+        width: 70vw;
+        padding: $space;
+        margin: 0 auto;
+        list-style: none;
+        background: 0 0;
         &-fluid {
-            max-width: none;
-            width: 100%;
+            width: 100vw;
         }
     }
 }
+
+/*
+.row, .container {
+    border: 1px solid #6f9dc7;
+    background: rgba(41, 75, 105, 0.1);
+}
+*/

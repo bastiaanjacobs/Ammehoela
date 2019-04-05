@@ -6,38 +6,51 @@
     <meta name="author" content="bastiaanjacobs">
 
     <link rel="stylesheet" href="dist/css/main.min.css">
+    <!-- fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Dekko" rel="stylesheet">
+    <!-- /fonts -->
     </head>
 
     <body>
-        <!-- announcement -->
-        <section class="announcement">
-            <span>GRATIS VERZENDING VANAF € 100,-</span>
-            <span>LEVERING BINNEN 1 - 2 WERKDAGEN</span>
-            <span>NIET GOED, GELD TERUG</span>
-        </section>
         <!-- header -->
-        <header class="row">
-            <section class="container-fluid">
-                <!-- logo -->
-                <figure class="logo">
-                    <img src="dist/img/logo.png" alt="ammehoela logo">
-                </figure>
-                <!-- /logo -->
-                <!-- navigation -->
-                <nav>
-                    <ul>
-                        <li>Home</li>
-                        <li>Shop</li>
-                        <li>Sale</li>
-                        <li>Stocklist</li>
-                        <li>Merken</li>
-                    </ul>
-                </nav>
-                <!-- /navigation -->
-                <!-- shopping cart -->
-                    <div class="shopping__cart btn right">Shopping cart</div>
-                <!-- /shopping cart -->
-            </section>
+        <header class="row no-padding">
+                <!-- announcement -->
+                <section class="container-fluid announcement">
+                    <span class="status"></span>
+                    <span>GRATIS VERZENDING VANAF € 100,-</span>
+                    <span>LEVERING BINNEN 1 - 2 WERKDAGEN</span>
+                    <span>NIET GOED, GELD TERUG</span>
+                </section>
+                <!-- /announcement -->
+                <section class="container">
+                    <div class="header__inner">
+                        <!-- logo -->
+                        <figure class="logo">
+                            <img src="dist/img/logo.png" alt="ammehoela logo">
+                            <span>organic apparel</span>
+                        </figure>
+                        <!-- /logo -->
+                        <!-- navigation -->
+                        <nav>
+                            <ul>
+                                <li class="active"><a href="#">Home</a></li>
+                                <li><a href="#">Shop</a></li>
+                                <li><a href="#">Sale</a></li>
+                                <li><a href="#">Stocklist</a></li>
+                                <li><a href="#">Merken</a></li>
+                            </ul>
+                        </nav>
+                        <!-- /navigation -->
+                        <!-- label -->
+                        <figure class="label">
+                            <img src="dist/img/certifications-gots.svg" alt="gots certified logo">
+                        </figure>
+                        <!-- /label -->
+                        <!-- shopping cart -->
+                            <div class="shopping__cart btn right">Shopping cart</div>
+                        <!-- /shopping cart -->
+                    </div>
+                </section>
         </header>
         <!-- /header -->
 
@@ -62,13 +75,15 @@
 
         <!-- footer -->
         <footer class="row">
-            <ul>
-                <li>Contact</li>
-                <li>Instagram</li>
-                <li>Facebook</li>
-                <li>Twitter</li>
-                <li>WhatsApp</li>
-            </ul>       
+            <section class="container">
+                <ul>
+                    <li>Contact</li>
+                    <li>Instagram</li>
+                    <li>Facebook</li>
+                    <li>Twitter</li>
+                    <li>WhatsApp</li>
+                </ul>
+            </section>    
         </footer>
         <!-- /footer -->
 
